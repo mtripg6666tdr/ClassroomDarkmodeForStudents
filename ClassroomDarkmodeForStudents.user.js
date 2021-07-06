@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Classroom Darkmode For Students
 // @namespace    https://scrpg.tyanoyu.net
-// @version      0.2
+// @version      0.3
 // @description  Have your eyes safe also in Google Classroom.
 // @author       mtripg6666tdr
 // @match        https://classroom.google.com/*
@@ -52,6 +52,7 @@
                 ".gb_vb.gb_vb",
                 ".gb_Cb.gb_Cb, .gb_Db.gb_Db",
                 ".gb_k .gb_ib",
+                ".JdGGFd, .lbWVCe"
             ].join(",")).css( "background-color", "rgba(40,40,40,1)");
 
             if(window.jQuery("nav > div.QRiHXd > div.FXKA9c > div > h1 > div > span").text()!=="Classroom Darkmode"){
